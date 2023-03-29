@@ -7,7 +7,7 @@ Sdk Client to http calls on manga server project
 ### import
 
 ```
-import HttpManga from "@manga-js/manga-js-http-sdk"
+import HttpManga from "manga-js-http-sdk"
 
 const httpManga = new HttpManga("http://localhost:80");
 

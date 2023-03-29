@@ -1,5 +1,5 @@
 {
-  "name": "@manga-js/manga-js-http-sdk",
+  "name": "manga-js-http-sdk",
   "version": "1.0.0",
   "description": "Client access  manga-js-server by http",
   "main": "src/index.ts",
