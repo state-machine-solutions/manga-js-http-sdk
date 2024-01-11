@@ -12,7 +12,7 @@ export interface MangaDataReturn {
     result?:any;
     messages?:string[];
 }
-export default class HttpManga{
+export class HttpManga{
     endpoint: string;
     requestConfig: { headers: { 'Content-Type': string; Accept: string; }; };
 
