@@ -1,6 +1,6 @@
 {
   "name": "manga-js-http-sdk",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Client access  manga-js-server by http",
   "main": "dist/index.js",
   "module": "dist/index.js",
