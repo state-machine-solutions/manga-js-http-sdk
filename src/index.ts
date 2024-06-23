@@ -20,7 +20,7 @@ export class HttpManga {
   constructor(endpoint: string) {
     this.endpoint =
       endpoint[endpoint.length - 1] == "/"
-        ? endpoint.substring(0, endpoint.length - 2)
+        ? endpoint.substring(0, endpoint.length - 1)
         : endpoint;
     this.requestConfig = {
       headers: {
