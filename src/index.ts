@@ -71,7 +71,7 @@ export class HttpManga {
     value: any,
     timeout?: number
   ): Promise<MangaDataReturn> {
-    return this.put("/", { path, value, timeout });
+    return this.post("/reset", { path, value, timeout });
   }
   public async delete(path: string): Promise<MangaDataReturn> {
     return this.post("/delete", { path });
